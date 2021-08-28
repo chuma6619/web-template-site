@@ -1,0 +1,252 @@
+/*  General style*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Slabo 27px', serif;
+}
+
+/*  SECTION 1 */
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-icon{
+    margin-left: 12rem;
+}
+
+.heading{
+    color:blanchedalmond;
+    margin-top: 1rem;
+    font-size: 6rem;
+}
+
+.biography-image{
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+}
+
+.name{
+    color: blanchedalmond;
+    margin-left: 7rem;
+}
+
+.article-container{
+    display: flex;
+    justify-content: center;
+}
+
+.article{
+    max-width: 60%;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+
+.facebook-icon, .twitter-icon{
+    margin-right: 2rem;
+}
+
+/*  SECTION 2 */
+
+.section2-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.column1{
+    width: 50%;
+    margin: 0 4rem;
+}
+
+.column2{
+    width: 50%;
+    margin-right: 4rem;
+}
+
+.col1-para{
+    color: blanchedalmond;
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+}
+
+.col2-head{
+    color: blanchedalmond;
+    font-size: 1.5rem;
+
+}
+
+.col2-para{
+    font-size: 1.3rem;
+}
+
+.chat{
+    font-size: 1.2rem;
+}
+
+.chat-icon{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 2rem;
+}
+
+.chat:hover{
+    color: blanchedalmond;
+}
+
+/*  SECTION 3 */
+
+.section3-container{
+    display: flex;
+    justify-content: center;
+}
+
+.number-1-icon{
+    width: 4rem;
+    height: 4rem;
+}
+hr{
+    color: blanchedalmond;
+    font-size: 5rem;
+    max-width: 60%;
+}
+
+.paragraph-container, .arrow-container, .portfolio-container{
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph{
+    font-size: 4rem;
+    max-width: 70%;
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 0;
+}
+
+.arrow-image{
+    width: 4.5rem;
+    height: 6rem;
+}
+
+.portfolio{
+    color: blanchedalmond;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+/* SECTION 4 */
+
+.gallery-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+    margin-left: 7rem;
+}
+
+.gallery-img{
+    width: 20rem;
+    height:20rem;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+
+.learn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.learn-para{
+    border: 2px solid blanchedalmond;
+    padding: 1.5rem 4rem;
+    font-size: 1.2rem;
+    color: blanchedalmond;
+    margin-bottom: 7rem;
+}
+
+/*  SECTION 5 */
+
+.section5-container{
+    display: flex;
+    justify-content: center;
+}
+
+.column1-para1{
+    color: blanchedalmond;
+    font-size: 1.7rem;
+}
+
+.column1-para2, .column2-para{
+    font-size: 1.2rem;
+    margin-bottom: 7rem;
+}
+
+/*  SECTION 6 */
+
+.section6-heading, .phone-icon-image, .woman-img-container, .location-container,
+.location-para-container, .sample-para-container{
+    display: flex;
+    justify-content: center
+}
+
+.section6-heading{
+    color: blanchedalmond;
+    font-size: 3rem;
+}
+
+.phone-no{
+    font-size: 1.5rem;
+}
+
+.phone-no:hover{
+    color: blanchedalmond;
+}
+
+.woman-img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.location{
+    color: blanchedalmond;
+    font-size: 1.8rem;
+}
+
+.location-para{
+    font-size: 1.2rem;
+}
+
+.hr-sec6{
+    color: blanchedalmond;
+    text-align: center;
+    max-width: 18%;
+    height: 0.5rem;
+    background-color: blanchedalmond;
+    margin-top: 1rem;
+}
+
+.sample-para{
+    max-width: 22%;
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+}
+
